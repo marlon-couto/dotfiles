@@ -1,0 +1,15 @@
+# System apt upgrade
+alias sysup="sudo apt update && sudo apt full-upgrade -y && sudo snap refresh && flatpak update -y"
+
+# Replace old apps for improved versions
+alias vim="nvim"
+alias ls="exa -aF"
+alias grep="rg"
+
+# Extended functionality for console apps
+alias mkdir="mkdir -pv"
+
+# GitHub CLI
+alias ghclone="gh repo clone"
+alias ghrepo="gh repo create"
+alias ghpr="gh pr create"
