@@ -1,0 +1,17 @@
+# Create a directory and move to it
+mcd() {
+  mkdir -p "$1"
+  cd "$1"
+}
+
+# Git functions
+push() {
+  git add --all
+  git commit -sm "$1"
+  git push
+}
+
+commit() {
+  git add --all
+  git commit -v
+}
