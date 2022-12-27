@@ -6,12 +6,12 @@ mcd() {
 
 # Git functions
 push() {
-  git add --all
-  git commit -sm "$1"
+  git add .
+  git commit -v
   git push
 }
 
 commit() {
-  git add --all
+  git add .
   git commit -v
 }
