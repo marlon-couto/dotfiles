@@ -1,5 +1,5 @@
 # System apt upgrade
-alias sysup="sudo apt update && sudo apt full-upgrade -y && sudo snap refresh && flatpak update -y"
+alias popup="sudo apt update && sudo apt full-upgrade -y && sudo snap refresh && flatpak update -y"
 
 # Replace old apps for improved versions
 alias vim="nvim"
@@ -10,6 +10,7 @@ alias grep="rg"
 alias mkdir="mkdir -pv"
 
 # GitHub CLI
-alias ghclone="gh repo clone"
 alias ghrepo="gh repo create"
+alias ghclone="gh repo clone"
+alias ghfork="gh repo fork"
 alias ghpr="gh pr create"
