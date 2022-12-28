@@ -6,8 +6,9 @@ alias vim="nvim"
 alias ls="exa -aF"
 alias grep="rg"
 
-# Extended functionality for console apps
+# Extended functionality for terminal apps
 alias mkdir="mkdir -pv"
+alias ps="ps auxf"
 
 # GitHub CLI
 alias ghrepo="gh repo create"
