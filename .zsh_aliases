@@ -9,6 +9,7 @@ alias grep="rg"
 # Extended functionality for terminal apps
 alias mkdir="mkdir -pv"
 alias ps="ps auxf"
+alias fd="fdfind"
 
 # GitHub CLI
 alias ghrepo="gh repo create"
