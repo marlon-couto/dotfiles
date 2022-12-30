@@ -1,5 +1,6 @@
 # System apt upgrade
 alias popup="sudo apt update && sudo apt full-upgrade -y && sudo snap refresh && flatpak update -y"
+alias archup="yay --noconfirm && sudo snap refresh && flatpak update -y"
 
 # Replace old apps for improved versions
 alias vim="nvim"
