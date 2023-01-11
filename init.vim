@@ -12,7 +12,7 @@ set clipboard=unnamedplus
 set title
 
 " Keep lines above and below the cursor
-set scrolloff=5
+set scrolloff=15
 
 " Line wrapping
 set wrap
